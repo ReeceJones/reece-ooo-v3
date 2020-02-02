@@ -1,0 +1,93 @@
+nav#navbar {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding: 12px;
+    background-color: var(--navbar-bg-color);
+}
+
+nav #contents {
+    text-align: left;
+}
+
+nav#navbar a {
+    color: var(--navbar-text-color);
+    text-decoration: none;
+    font-size: 1.25em;
+    padding: 3px 10px 3px 10px;
+    margin: 0 0 0 0;
+}
+
+nav#navbar a:hover {
+    background-color: var(--navbar-bg-hover-color);
+}
+
+nav a {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 4px 5px 4px 5px;
+}
+
+section {
+    margin: 3px 3px 3px 3px;
+    padding: 2px 5px 2px 5px;
+    /* border: 2px dotted black; */
+}
+
+code pre {
+    background-color: var(--code-bg-color);
+    padding: 10px 10px 10px 10px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+@media screen and (min-width: 600px) {
+    #primary-container {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #primary-container {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #primary-container {
+        width: 800px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    #primary-container {
+        width: 900px;
+    }
+}
+
+@media screen and (min-width: 3000px) {
+    #primary-container {
+        width: 1000px;
+    }
+}
+
+@media screen and (min-width: 3001px) {
+    #primary-container {
+        width: 60%;
+    }
+}
+
+.center-column {
+    margin: 5px auto 5px auto;
+    padding: 2px 10px 2px 10px;
+    display: block;
+    left: 50%;
+}
+
+.divider {
+    height: 0;
+    border: 1px dotted black;
+}
+
